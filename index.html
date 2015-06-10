@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Paint Online</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<section id="header">
+		<h1></h1>
+	</section>
+	<section id="home">
+		<header id="hea">
+			<button id="start">Start Painting</button>
+		</header>		
+	</section>
+	<section id="board">
+		<canvas id="canvas" width="1530" height="800"></canvas>
+		<div id="tools">
+			<ul>
+				<li id="pencil"></li>
+				<li id="line"></li>
+				<li id="rectangle"></li>
+				<li id="fillRect"></li>
+				<li id="cercle"></li>
+				<li id="fillCercle"></li>
+				<li><input type="number" id="size" value="1"></li>
+				<li id="text"></li>
+				<li><input type="number" id="fontSize" value="1"></li>
+				<li id="fontFam">
+					<select id="family">
+						<option>Calibri</option>
+						<option>Helvetica</option>
+						<option>Arial</option>
+						<option>Oswald</option>
+						<option>sans-serif</option>
+					</select>
+				</li>
+				<li><input type="color" id="fontColor"></li>
+				<li><input type="text" id="texte" placeholder="Text"></li>
+				<li id="image"></li>
+				<li><input type="file" id="img"></li>
+				<li id="reset"></li>
+				<li><input type="color" id="couleur"></li>
+				<!--<li id="shadow"></li>
+				<li id="sett">
+					<p>
+						<input type="color" id="colorShadow">
+					</p>
+					<p>
+						Blur<input type="number" id="blur">
+					</p>
+					<p>
+						x<input type="number" id="x">
+					</p>
+					<p>
+						y<input type="number" id="y">
+					</p>
+				</li>-->
+				<li id="save"></li>
+			</ul>
+		</div>
+	</section>
+	<img id="resultat">
+	<p id="clickD">
+		Click droit pour enregistrer.
+	</p>
+	<button id="retour">Retour au dessin</button>
+</body>
+</html>

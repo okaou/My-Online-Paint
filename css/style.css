@@ -1,0 +1,123 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	/*text-decoration: none;*/
+	list-style: none;
+}
+body
+{
+	background-color: lightgrey;
+}
+#home
+{
+	max-width: 500px;
+	margin: auto;
+	margin-top: 5%;
+}
+#home header
+{
+	min-width: 500px;
+	min-height: 500px;
+	background-image: url(../img/homePaint.jpg);
+	background-repeat: no-repeat;
+}
+#home button
+{
+	display: block;
+	margin: auto;
+	background-color: transparent;
+	color: grey;
+	font-family: Oswald, sans-serif;
+	font-size: 1em;
+	padding: 1.5%;
+	position: relative;
+	top: 500px;
+	border: 0;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#size
+{
+	width: 30px;
+}
+#board
+{
+	background-color: grey;
+}
+#tools, #canvas
+{
+	display: inline-block;
+}
+#canvas
+{
+	border: 1px solid black;
+	background-color: white;
+}
+#tools
+{
+	background-color: lightgrey;
+	max-height: 800px;
+	padding: 2%;
+	vertical-align: top;
+}
+#tools ul li
+{
+	display: block;
+	width: 32px;
+	height: 32px;
+	margin-bottom: 50%;
+}
+#pencil
+{
+	background-image: url(../img/pencil32.png);
+}
+#line
+{
+	background-image: url(../img/line32.png);
+}
+#rectangle
+{
+	border: 2px solid black;
+}
+#text
+{
+	background-image: url(../img/edition1.png);
+}
+#image
+{
+	background-image: url(../img/camera3.png);
+}
+#fillRect
+{
+	border: 1px solid black;
+	background-color: black;
+}
+#cercle
+{
+	border: 1px solid black;
+	border-radius: 16px;
+}
+#fillCercle
+{
+	border: 1px solid black;
+	border-radius: 16px;
+	background-color: black;
+}
+#reset
+{
+	background-color: white;
+}
+#val
+{
+	display: block;
+	color: black;
+}
+#save
+{
+	background-image: url(../img/save-file.png);
+}
+#shadow
+{
+	background-image: url(../img/halffilled.png);
+}
